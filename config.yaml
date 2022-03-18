@@ -1,4 +1,93 @@
+# helpful template on the demo site
+# https://github.com/adityatelange/hugo-PaperMod/blob/exampleSite/config.yml
+
 theme: "hugo-PaperMod"
 baseURL: http://wtf-aita.com
 languageCode: en-us
+paginate: 5
 title: What they forgot to teach you about industry transitions from academia (WTF AITA)
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+# googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+menu:
+   main:
+       - name: Archive
+         url: archives
+         weight: 5
+       - name: Search
+         url: search/
+         weight: 10
+       - name: Tags
+         url: tags/
+         weight: 10
+       - name: Categories
+         url: categories/
+         weight: 10
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "WTF-AITA - https://github.com/tgerke/wtf-aita"
+    author: Travis Gerke
+    # author: ["Me", "You"] # multiple authors
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+    # comments: false
+    #images: ["papermod-cover.png"]
+
+    profileMode:
+        enabled: false
+        title: WTF-AITA
+        imageUrl: "#"
+        imageTitle: my image
+        # imageWidth: 120
+        # imageHeight: 120
+        buttons:
+            - name: Archives
+              url: archives
+            - name: Tags
+              url: tags
+
+    homeInfoParams:
+        Title: "WTF AITA"
+        Content: >
+            Welcome to a collection of resources to guide you through a transition from 
+            academia to industry as a data scientist. 
+            - Do give a 🌟 on Github !
+            - Feel free to offer content suggestions! [WTF-ATIA](https://github.com/tgerke/wtf-aita/).
+    socialIcons:
+        - name: github
+          url: "https://github.com/tgerke/wtf-aita/"
+        - name: twitter
+          url: "https://twitter.com"
+        - name: email
+          url: "mailto:test@test"
+
+    editPost:
+        URL: "https://github.com/tgerke/wtf-aita/tree/main/content"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true # to append file path to Edit link
+        
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
