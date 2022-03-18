@@ -1,0 +1,15 @@
+---
+title: "An intro to WTF AITA"
+author: "Travis Gerke"
+date: "`r format(Sys.time(), '%Y %B %d')`"
+categories: ["R"]
+tags: ["general", "wtf-aita"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# An intro
+
+Hello!
