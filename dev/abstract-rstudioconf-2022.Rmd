@@ -1,0 +1,27 @@
+---
+title: "rstudio::conf 2022 abstract"
+---
+
+#### Script for 1-minute video abstract submission
+
+[Submission link](https://www.rstudio.com/blog/new-deadline/)
+
+---
+
+#### What they forgot to teach you about industry transitions from academia (WTF AITA)
+
+Hi, I'm Travis Gerke. I love my career as a data scientist which, being fully remote, allows our family to live full-time in an RV as adventurers.
+
+I used to be an academic, and a key turning point that made our current life possible was my decision to transition into an industry role. In turn, this transition would not have been possible without the wonderful support and resources made available by the rstudio community.
+
+When I first applied to industry roles, I made all the rookie mistakes: a resume that was too long, cover letters that were too verbose and read like research statements, and inexperience navigating data science titles and salary standards. Now, as someone who reads a lot of resumes from would-be post-academics, I see many opportunities for excellent candidates to help themselves shine.
+
+This talk presents a gathering of resources from the rstudio community for industry job-seekers. Examples include packages for resume-building and cover letter writing, quickstarts for personal websites and github profiles, and helpful r networks. 
+
+Lastly, I will present the launch of a new website named after the talk, which will showcase and link to the discussed resources, and is open to further community contributions.
+
+Thanks and see you at conf!
+
+#### 750 character abstract
+
+This talk presents a gathering of resources from the RStudio community for industry job-seekers who are transitioning from academia. Examples include packages for resume-building and cover letter writing, quick starts for personal websites and GitHub profiles, and helpful R networks. A new website named after the talk (wtf-aita.com) will showcase and link to the discussed resources, and is open to further community contributions.
