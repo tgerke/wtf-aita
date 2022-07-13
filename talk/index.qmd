@@ -1,15 +1,15 @@
 ---
-title: "wtf-aita"
-subtitle: "What they forgot to teach you about industry transitions from academia"
+title: "What they forgot to teach you about industry transitions from academia"
 format:
   revealjs: 
     theme: [default]
     css: [custom.css]
 editor: visual
-title-slide-attributes:
-  data-background-image: img/towfiqu-barbhuiya-oZuBNC-6E2s-unsplash.jpg
-  data-background-size: cover
 ---
+
+## {.wtf-aita id="wtf-aita" background-image="img/towfiqu-barbhuiya-oZuBNC-6E2s-unsplash.jpg" .center}
+
+### WTF AITA
 
 ## What the f\*ck?
 

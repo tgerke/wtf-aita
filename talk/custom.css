@@ -1,5 +1,5 @@
 #title-slide .title {
-  color: #ffffff;
+  color: #000000;
 }
 
 #title-slide .subtitle {
@@ -7,4 +7,10 @@
   position: fixed;
   bottom: 100;
   right: 1;
+}
+
+.wtf-aita h3 {
+  text-align: center;
+  font-size: 2.8em;
+  color: #ffffff;
 }
