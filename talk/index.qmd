@@ -1,15 +1,17 @@
 ---
 title: "wtf-aita"
+subtitle: "What they forgot to teach you about industry transitions from academia"
 format:
   revealjs: 
-    theme: [default, custom.scss]
+    theme: [default]
+    css: [custom.css]
 editor: visual
 title-slide-attributes:
   data-background-image: img/towfiqu-barbhuiya-oZuBNC-6E2s-unsplash.jpg
   data-background-size: cover
 ---
 
-## Quarto
+## What the f\*ck?
 
 <!-- 
 Cover photo by:
@@ -21,23 +23,9 @@ https://github.com/rstudio/revealjs/issues/32
 Customizing other elements:
 https://stackoverflow.com/questions/72149751/how-to-change-text-color-in-quarto-slides
 https://quarto.org/docs/presentations/revealjs/themes.html#customizing-themes
---> 
+-->
 
-Quarto enables you to weave together content and executable code into a finished presentation.
-To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+See also: [quit lit](https://theprofessorisin.com/tag/quit-lit/)
 
-## Bullets
 
-When you click the **Render** button a document will be generated that includes:
-
--   Content authored with markdown
--   Output from executable code
-
-## Code
-
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code.
-You can embed code like this:
-
-```{r}
-1 + 1
-```
+## Am I the a$$hole?

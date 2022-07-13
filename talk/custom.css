@@ -1,0 +1,10 @@
+#title-slide .title {
+  color: #ffffff;
+}
+
+#title-slide .subtitle {
+  color: #000;
+  position: fixed;
+  bottom: 100;
+  right: 1;
+}
