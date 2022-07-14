@@ -14,3 +14,21 @@
   font-size: 2.8em;
   color: #ffffff;
 }
+
+.resumes h3 {
+  text-align: center;
+  font-size: 2.8em;
+  color: #000000;
+}
+
+.cover-letters h3 {
+  text-align: center;
+  font-size: 2.8em;
+  color: #000000;
+}
+
+.portfolios h3 {
+  text-align: center;
+  font-size: 2.8em;
+  color: #000000;
+}

@@ -11,8 +11,6 @@ editor: visual
 
 ### WTF AITA
 
-## What the f\*ck?
-
 <!-- 
 Cover photo by:
 <a href="https://unsplash.com/@towfiqu999999?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"Towfiqu barbhuiya</a> on <a href="https://unsplash.com/s/photos/question?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"Unsplash</a>
@@ -25,7 +23,105 @@ https://stackoverflow.com/questions/72149751/how-to-change-text-color-in-quarto-
 https://quarto.org/docs/presentations/revealjs/themes.html#customizing-themes
 -->
 
-See also: [quit lit](https://theprofessorisin.com/tag/quit-lit/)
+## What the f\*ck?
 
+. . .
+
+Good question!
+
+::: {.incremental}
+  - Commonly asked regarding careers in academia
+  - This is not a talk about that
+  - See instead: [quit lit](https://theprofessorisin.com/tag/quit-lit/)
+:::
+
+. . .
+
+Generalizes beyond academia
+
+  - If you've asked yourself this question, this talk is for you!
 
 ## Am I the a$$hole?
+
+. . .
+
+Often happens when academics first apply to industry roles
+
+::: {.incremental}
+  1. Resumes that are too long
+  2. Cover letters that look like research statements
+  3. Unclear or absent coding portfolio
+:::
+
+. . .
+
+Don't make others work to discover how awesome you are!
+
+  - RStudio has tools to help you shine in each of the above
+
+## {.resumes id="resumes" .center}
+
+### 1. RESUMES
+
+## Academic resumes
+
+Am I nOt ImPrEsSiVe? 🥴
+
+![](img/cv-scroll.gif){fig-align="center" fig-alt="A scrolling gif of my embarrassing 22 page CV"}
+
+## Industry resumes
+
+Actually impressive 🤩
+
+![](img/shannon-resume.gif){fig-align="center" fig-alt="A scrolling gif of Shannon Pileggi's awesome resume"}
+
+## How to do this with RStudio
+
+Use the [datadrivencv](http://nickstrayer.me/datadrivencv/) package
+
+![](img/datadrivencv.png){fig-align="center" fig-alt="A screenshot of the datadrivencv package docs"}
+
+<!-- also mention https://pkg.mitchelloharawild.com/vitae/ -->
+
+## {.cover-letters id="cover-letters" .center}
+
+### 2. COVER LETTERS
+
+## Academic cover letters
+
+Am I nOt ImPrEsSiVe? 🥴
+
+![](img/cover-letter-bad.gif){fig-align="center" fig-alt="A scrolling gif of my rambling and densely packed academic cover letter"}
+
+## Industry cover letters
+
+Actually impressive 🤩
+
+![](img/cover-letter-good.png){fig-align="center" fig-alt="A much improved industry cover letter from the stevetemplates package"}
+
+## How to do this with RStudio
+
+Use the [stevetemplates](http://svmiller.com/stevetemplates/) package
+
+![](img/steve-templates.png){fig-align="center" fig-alt="A screenshot of the stevetemplates package docs"}
+
+## {.portfolios id="portfolios" .center}
+
+### 3. PORTFOLIOS
+
+## Academic portfolios
+
+Am I nOt ImPrEsSiVe? 🥴
+
+## Industry portfolios
+
+Personal websites
+
+
+## How to do this with RStudio
+
+## The WTF-AITA community resource
+
+Find all of this talk's content and more at [wtf-aita.com](http://www.wtf-aita.com/)
+
+![](img/wtf-aita-com.png){fig-align="center" fig-alt="A screenshot of the wtf-aita.com homepage"}
