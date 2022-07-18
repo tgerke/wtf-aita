@@ -1,5 +1,6 @@
 ---
 title: "What they forgot to teach you about industry transitions from academia"
+from: markdown+emoji
 format:
   revealjs: 
     theme: [default]
@@ -29,17 +30,33 @@ https://quarto.org/docs/presentations/revealjs/themes.html#customizing-themes
 
 Good question!
 
-::: {.incremental}
-  - Commonly asked regarding careers in academia
-  - This is not a talk about that
-  - See instead: [quit lit](https://theprofessorisin.com/tag/quit-lit/)
-:::
+. . .
+
+-   Commonly asked regarding careers in academia
+
+## What the f\*ck?
+
+![Figure from [Schillebeeckx et al., Nat Biotech (2013)](https://www.nature.com/articles/nbt.2706)](img/phds-vs-jobs.png){fig-align="center" fig-alt="A plot showing way more phds granted than faculty positions available each year"}
+
+## What the f\*ck?
+
+Good question!
+
+-   Commonly asked regarding careers in academia
+
+. . .
+
+-   This is not a talk about that
+
+. . .
+
+-   See instead: [quit lit](https://theprofessorisin.com/tag/quit-lit/)
 
 . . .
 
 Generalizes beyond academia
 
-  - If you've asked yourself this question, this talk is for you!
+-   If you've asked yourself this question, this talk is for you!
 
 ## Am I the a$$hole?
 
@@ -47,17 +64,19 @@ Generalizes beyond academia
 
 Often happens when academics first apply to industry roles
 
-::: {.incremental}
-  1. Resumes that are too long
-  2. Cover letters that look like research statements
-  3. Unclear or absent coding portfolio
+:::{.incremental}
+
+1.  Resumes that are too long
+2.  Cover letters that look like research statements
+3.  Unclear or absent coding portfolio
+
 :::
 
 . . .
 
 Don't make others work to discover how awesome you are!
 
-  - RStudio has tools to help you shine in each of the above
+-   RStudio has tools to help you shine in each of the above
 
 ## {.resumes id="resumes" .center}
 
@@ -65,13 +84,13 @@ Don't make others work to discover how awesome you are!
 
 ## Academic resumes
 
-Am I nOt ImPrEsSiVe? 🥴
+Am I nOt ImPrEsSiVe? :woozy_face:
 
 ![](img/cv-scroll.gif){fig-align="center" fig-alt="A scrolling gif of my embarrassing 22 page CV"}
 
 ## Industry resumes
 
-Actually impressive 🤩
+Actually impressive :star_struck:
 
 ![](img/shannon-resume.gif){fig-align="center" fig-alt="A scrolling gif of Shannon Pileggi's awesome resume"}
 
@@ -89,13 +108,13 @@ Use the [datadrivencv](http://nickstrayer.me/datadrivencv/) package
 
 ## Academic cover letters
 
-Am I nOt ImPrEsSiVe? 🥴
+Am I nOt ImPrEsSiVe? :woozy_face:
 
 ![](img/cover-letter-bad.gif){fig-align="center" fig-alt="A scrolling gif of my rambling and densely packed academic cover letter"}
 
 ## Industry cover letters
 
-Actually impressive 🤩
+Actually impressive :star_struck:
 
 ![](img/cover-letter-good.png){fig-align="center" fig-alt="A much improved industry cover letter from the stevetemplates package"}
 
@@ -111,14 +130,34 @@ Use the [stevetemplates](http://svmiller.com/stevetemplates/) package
 
 ## Academic portfolios
 
-Am I nOt ImPrEsSiVe? 🥴
+Am I nOt ImPrEsSiVe? :woozy_face:
 
 ## Industry portfolios
 
-Personal websites
+GitHub portfolio (example from [Monica Powell](https://aboutmonica.com/blog/how-to-create-a-github-profile-readme/)) ![](img/gh-profile.png){fig-align="center" fig-alt="A screenshot Monica Powell's GitHub landing page with her profile"}
 
+## Industry portfolios
+
+Personal websites (example from [Hadley Wickham](https://hadley.nz/))
+
+![](img/postcards-hadley.png){fig-align="center" fig-alt="A screenshot Hadley Wickham's landing page at his website which was made with the postcards package"}
 
 ## How to do this with RStudio
+
+GitHub portfolio
+
+``` r
+|# eval: false
+|# echo: true
+
+# placeholder for usethis code
+```
+
+## How to do this with RStudio
+
+Personal website starter with the [postcards](https://github.com/seankross/postcards) package
+
+![](img/postcards.png){fig-align="center" fig-alt="A screenshot of the postcards package docs"}
 
 ## The WTF-AITA community resource
 
