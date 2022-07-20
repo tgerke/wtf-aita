@@ -1,0 +1,229 @@
+---
+title: "What they forgot to teach you about industry transitions from academia"
+from: markdown+emoji
+format:
+  revealjs: 
+    theme: [default]
+    css: [custom.css]
+    title-slide-attributes:
+      data-background-image: img/wtf-teach-you-industry.png
+      data-background-size: cover
+editor: source
+---
+
+## {.wtf-aita id="wtf-aita" .center}
+
+### WTF AITA
+
+<!-- 
+Cover photo by:
+<a href="https://unsplash.com/@towfiqu999999?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"Towfiqu barbhuiya</a> on <a href="https://unsplash.com/s/photos/question?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"Unsplash</a>
+
+Figuring out how to add image to title slide:
+https://github.com/rstudio/revealjs/issues/32
+
+Customizing other elements:
+https://stackoverflow.com/questions/72149751/how-to-change-text-color-in-quarto-slides
+https://quarto.org/docs/presentations/revealjs/themes.html#customizing-themes
+-->
+
+## What the f\*ck?
+
+. . .
+
+Good question!
+
+-   Commonly asked regarding careers in academia
+
+## What the f\*ck?
+
+![Figure from [Schillebeeckx et al., Nat Biotech (2013)](https://www.nature.com/articles/nbt.2706)](img/phds-vs-jobs.png){fig-align="center" fig-alt="A plot showing way more phds granted than faculty positions available each year"}
+
+## What the f\*ck?
+
+A common academic career question
+
+-   This is not a talk about that
+-   See instead: [quit lit](https://theprofessorisin.com/tag/quit-lit/)
+
+. . .
+
+Generalizes beyond academia
+
+-   If you've asked yourself this question, this talk is for you!
+
+## Am I the a$$hole?
+
+. . .
+
+Often happens when academics first apply to industry roles
+
+:::{.incremental}
+
+1.  Resumes that are too long
+2.  Cover letters that look like research statements
+3.  Unclear or absent coding portfolio
+
+:::
+
+. . .
+
+Don't make others work to discover how awesome you are!
+
+-   RStudio has tools to help you shine in each of the above
+
+## {.resumes id="resumes" .center}
+
+### 1. RESUMES
+
+## Academic resumes
+
+Am I nOt ImPrEsSiVe? :woozy_face:
+
+![](img/cv-scroll.gif){fig-align="center" fig-alt="A scrolling gif of my embarrassing 22 page CV"}
+
+## Industry resumes
+
+Actually impressive :star_struck:
+
+![](img/shannon-resume.gif){fig-align="center" fig-alt="A scrolling gif of Shannon Pileggi's awesome resume"}
+
+## How to do this with RStudio
+
+Use the [datadrivencv](http://nickstrayer.me/datadrivencv/) package
+
+![](img/datadrivencv.png){fig-align="center" fig-alt="A screenshot of the datadrivencv package docs"}
+
+<!-- also mention https://pkg.mitchelloharawild.com/vitae/ -->
+
+## {.cover-letters id="cover-letters" .center}
+
+### 2. COVER LETTERS
+
+## Academic cover letters
+
+Am I nOt ImPrEsSiVe? :woozy_face:
+
+![](img/cover-letter-bad.gif){fig-align="center" fig-alt="A scrolling gif of my rambling and densely packed academic cover letter"}
+
+## Industry cover letters
+
+Actually impressive :star_struck:
+
+![](img/cover-letter-good.png){fig-align="center" fig-alt="A much improved industry cover letter from the stevetemplates package"}
+
+## How to do this with RStudio
+
+Use the [stevetemplates](http://svmiller.com/stevetemplates/) package
+
+![](img/steve-templates.png){fig-align="center" fig-alt="A screenshot of the stevetemplates package docs"}
+
+## {.cover-accessories id="cover-accessories" .center}
+
+### 2+ COVER ACCESSORIES
+
+## An org-themed [demo app](https://javierorraca.shinyapps.io/Bloomreach_Shiny_App/)
+
+![](img/bloomreach.png){fig-align="center" fig-alt="A screenshot of Javier Orraca's Bloomreach demo Shiny app"}
+
+## An org-themed [demo app](https://javierorraca.shinyapps.io/Bloomreach_Shiny_App/)
+
+The secret sauce: [bslib](https://rstudio.github.io/bslib/) and [thematic](https://rstudio.github.io/thematic/)
+
+- Details at Javier's GitHub [repo](https://github.com/JavOrraca/bslib_demo_shiny)
+
+![](img/bloomreach-gh.png){fig-align="center" fig-alt="A screenshot of Javier Orraca's GitHub repository for the Bloomreach demo Shiny app"}
+
+
+## {.portfolios id="portfolios" .center}
+
+### 3. PORTFOLIOS
+
+## Academic portfolios
+
+Am I nOt ImPrEsSiVe? :woozy_face:
+
+## Industry portfolios (1/3)
+
+GitHub portfolio (example from [Monica Powell](https://aboutmonica.com/blog/how-to-create-a-github-profile-readme/)) ![](img/gh-profile.png){fig-align="center" fig-alt="A screenshot Monica Powell's GitHub landing page with her profile"}
+
+## How to do this with RStudio
+
+```{r}
+#| eval: false
+#| echo: true
+
+# Make a project that is titled your GitHub user name
+usethis::create_project("~/Documents/GHusername")
+
+# Connect it to GitHub
+usethis::use_github()
+
+# Once in the project, run this to make your readme
+usethis::use_readme_rmd()
+```
+
+Click the `Knit` button and commit/push all changes
+
+- Modify the content as needed
+- It's all done with the R Markdown you already know!
+- If you get stuck with GitHub connections, don't forget your textbook friend [Happy Git and GitHub for the useR](https://happygitwithr.com/)
+
+## How to do this with RStudio
+
+![](img/gh-profile-tgerke.png){fig-align="center" fig-alt="A screenshot of the boilerplate usethis readme content rendered to my GitHub landing page"}
+
+## Industry portfolios (2/3)
+
+Personal websites (example from [Hadley Wickham](https://hadley.nz/))
+
+![](img/postcards-hadley.png){fig-align="center" fig-alt="A screenshot Hadley Wickham's landing page at his website which was made with the postcards package"}
+
+## How to do this with RStudio
+
+Personal website starter with the [postcards](https://github.com/seankross/postcards) package
+
+![](img/postcards.gif){fig-align="center" fig-alt="A scrolling screenshot of the postcards package docs"}
+
+## Industry portfolios (3/3)
+
+Personal blogs (example [1/2] from [Alison Hill](https://www.apreshill.com/))
+
+![](img/apreshill.png){fig-align="center" fig-alt="A screenshot of Alison Hill's landing page"}
+
+## How to do this with RStudio
+
+Watch Alison Hill's [walkthrough](https://www.apreshill.com/talk/2021-iyo-tunis/)
+
+![](img/apero.png){fig-align="center" fig-alt="A screenshot of Alison Hill's weblink to her R-ladies Hugo Apero talk"}
+
+## Industry portfolios (3/3)
+
+Personal blogs (example [2/2] from [Danielle Navarro](https://blog.djnavarro.net/))
+
+![](img/navarro.png){fig-align="center" fig-alt="A screenshot of Danielle Navarro's landing page"}
+
+## How to do this with RStudio
+
+Read Danielle Navarro's [walkthrough](https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/)
+
+![](img/navarro-quarto.png){fig-align="center" fig-alt="A screenshot of Danielle Navarro's page on converting a Distill site to Quarto"}
+
+## You have [many]{style="color: var(--rs-orange);"} friends
+
+RStudio community spots
+
+* [RStudio Data Science Hangout](https://www.rstudio.com/data-science-hangout/)
+* [TidyTuesday podcast and community activity](https://www.tidytuesday.com/)
+* [R4DS Online Learning Community (Slack)](https://www.rfordatasci.com/)
+* [R User Groups](https://benubah.github.io/r-community-explorer/rugs.html)
+* [R Ladies Global](https://rladies.org/)
+
+## The WTF-AITA community resource
+
+Find all of this talk's content and more at [wtf-aita.com](http://www.wtf-aita.com/)
+
+ - Please [contribute](https://github.com/tgerke/wtf-aita/) by way of Issue or PR!
+
+![](img/wtf-aita-com.png){fig-align="center" fig-alt="A screenshot of the wtf-aita.com homepage"}
+
