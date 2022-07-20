@@ -209,6 +209,10 @@ Read Danielle Navarro's [walkthrough](https://blog.djnavarro.net/posts/2022-04-2
 
 ![](img/navarro-quarto.png){fig-align="center" fig-alt="A screenshot of Danielle Navarro's page on converting a Distill site to Quarto"}
 
+## {.community id="community" .center}
+
+### COMMUNITY
+
 ## You have [many]{style="color: var(--rs-orange);"} friends
 
 RStudio community spots
@@ -218,6 +222,10 @@ RStudio community spots
 * [R4DS Online Learning Community (Slack)](https://www.rfordatasci.com/)
 * [R User Groups](https://benubah.github.io/r-community-explorer/rugs.html)
 * [R Ladies Global](https://rladies.org/)
+
+## {.wtf-aita-com id="wtf-aita-com" .center}
+
+### WTF-AITA.COM
 
 ## The WTF-AITA community resource
 

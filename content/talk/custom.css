@@ -10,7 +10,8 @@
 }
 
 #wtf-aita h3, #resumes h3, #cover-letters h3, 
-#portfolios h3, #cover-accessories h3 {
+#portfolios h3, #cover-accessories h3, 
+#community h3, #wtf-aita-com h3 {
   text-align: center;
   font-size: 2.8em;
   color: var(--rs-gray);
