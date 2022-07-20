@@ -486,6 +486,22 @@ https://quarto.org/docs/presentations/revealjs/themes.html#customizing-themes
 <p>Use the <a href="http://svmiller.com/stevetemplates/">stevetemplates</a> package</p>
 
 <img data-src="img/steve-templates.png" alt="A screenshot of the stevetemplates package docs" class="r-stretch quarto-figure-center"></section>
+<section id="cover-accessories" class="slide level2 cover-accessories center">
+<h2></h2>
+<h3 id="cover-accessories-1">2+ COVER ACCESSORIES</h3>
+</section>
+<section id="an-org-themed-demo-app" class="slide level2">
+<h2>An org-themed <a href="https://javierorraca.shinyapps.io/Bloomreach_Shiny_App/">demo app</a></h2>
+
+<img data-src="img/bloomreach.png" alt="A screenshot of Javier Orraca's Bloomreach demo Shiny app" class="r-stretch quarto-figure-center"></section>
+<section id="an-org-themed-demo-app-1" class="slide level2">
+<h2>An org-themed <a href="https://javierorraca.shinyapps.io/Bloomreach_Shiny_App/">demo app</a></h2>
+<p>The secret sauce: <a href="https://rstudio.github.io/bslib/">bslib</a> and <a href="https://rstudio.github.io/thematic/">thematic</a></p>
+<ul>
+<li>Details at Javier’s GitHub <a href="https://github.com/JavOrraca/bslib_demo_shiny">repo</a></li>
+</ul>
+
+<img data-src="img/bloomreach-gh.png" alt="A screenshot of Javier Orraca's GitHub repository for the Bloomreach demo Shiny app" class="r-stretch quarto-figure-center"></section>
 <section id="portfolios" class="slide level2 portfolios center">
 <h2></h2>
 <h3 id="portfolios-1">3. PORTFOLIOS</h3>
@@ -494,30 +510,80 @@ https://quarto.org/docs/presentations/revealjs/themes.html#customizing-themes
 <h2>Academic portfolios</h2>
 <p>Am I nOt ImPrEsSiVe? <span class="emoji" data-emoji="woozy_face">🥴</span></p>
 </section>
-<section id="industry-portfolios" class="slide level2">
-<h2>Industry portfolios</h2>
+<section id="industry-portfolios-13" class="slide level2">
+<h2>Industry portfolios (1/3)</h2>
 <p>GitHub portfolio (example from <a href="https://aboutmonica.com/blog/how-to-create-a-github-profile-readme/">Monica Powell</a>) <img data-src="img/gh-profile.png" data-fig-align="center" alt="A screenshot Monica Powell's GitHub landing page with her profile"></p>
 </section>
-<section id="industry-portfolios-1" class="slide level2">
-<h2>Industry portfolios</h2>
-<p>Personal websites (example from <a href="https://hadley.nz/">Hadley Wickham</a>)</p>
-
-<img data-src="img/postcards-hadley.png" alt="A screenshot Hadley Wickham's landing page at his website which was made with the postcards package" class="r-stretch quarto-figure-center"></section>
 <section id="how-to-do-this-with-rstudio-2" class="slide level2">
 <h2>How to do this with RStudio</h2>
-<p>GitHub portfolio</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># placeholder for usethis code</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># Make a project that is titled your GitHub user name</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a>usethis<span class="sc">::</span><span class="fu">create_project</span>(<span class="st">"~/Documents/GHusername"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3"></a></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="co"># Connect it to GitHub</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a>usethis<span class="sc">::</span><span class="fu">use_github</span>()</span>
+<span id="cb1-6"><a href="#cb1-6"></a></span>
+<span id="cb1-7"><a href="#cb1-7"></a><span class="co"># Once in the project, run this to make your readme</span></span>
+<span id="cb1-8"><a href="#cb1-8"></a>usethis<span class="sc">::</span><span class="fu">use_readme_rmd</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<p>Click the <code>Knit</code> button and commit/push all changes</p>
+<ul>
+<li>Modify the content as needed</li>
+<li>It’s all done with the R Markdown you already know!</li>
+<li>If you get stuck with GitHub connections, don’t forget your textbook friend <a href="https://happygitwithr.com/">Happy Git and GitHub for the useR</a></li>
+</ul>
 </section>
 <section id="how-to-do-this-with-rstudio-3" class="slide level2">
 <h2>How to do this with RStudio</h2>
+
+<img data-src="img/gh-profile-tgerke.png" alt="A screenshot of the boilerplate usethis readme content rendered to my GitHub landing page" class="r-stretch quarto-figure-center"></section>
+<section id="industry-portfolios-23" class="slide level2">
+<h2>Industry portfolios (2/3)</h2>
+<p>Personal websites (example from <a href="https://hadley.nz/">Hadley Wickham</a>)</p>
+
+<img data-src="img/postcards-hadley.png" alt="A screenshot Hadley Wickham's landing page at his website which was made with the postcards package" class="r-stretch quarto-figure-center"></section>
+<section id="how-to-do-this-with-rstudio-4" class="slide level2">
+<h2>How to do this with RStudio</h2>
 <p>Personal website starter with the <a href="https://github.com/seankross/postcards">postcards</a> package</p>
 
-<img data-src="img/postcards.png" alt="A screenshot of the postcards package docs" class="r-stretch quarto-figure-center"></section>
+<img data-src="img/postcards.gif" alt="A scrolling screenshot of the postcards package docs" class="r-stretch quarto-figure-center"></section>
+<section id="industry-portfolios-33" class="slide level2">
+<h2>Industry portfolios (3/3)</h2>
+<p>Personal blogs (example [1/2] from <a href="https://www.apreshill.com/">Alison Hill</a>)</p>
+
+<img data-src="img/apreshill.png" alt="A screenshot of Alison Hill's landing page" class="r-stretch quarto-figure-center"></section>
+<section id="how-to-do-this-with-rstudio-5" class="slide level2">
+<h2>How to do this with RStudio</h2>
+<p>Watch Alison Hill’s <a href="https://www.apreshill.com/talk/2021-iyo-tunis/">walkthrough</a></p>
+
+<img data-src="img/apero.png" alt="A screenshot of Alison Hill's weblink to her R-ladies Hugo Apero talk" class="r-stretch quarto-figure-center"></section>
+<section id="industry-portfolios-33-1" class="slide level2">
+<h2>Industry portfolios (3/3)</h2>
+<p>Personal blogs (example [2/2] from <a href="https://blog.djnavarro.net/">Danielle Navarro</a>)</p>
+
+<img data-src="img/navarro.png" alt="A screenshot of Danielle Navarro's landing page" class="r-stretch quarto-figure-center"></section>
+<section id="how-to-do-this-with-rstudio-6" class="slide level2">
+<h2>How to do this with RStudio</h2>
+<p>Read Danielle Navarro’s <a href="https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/">walkthrough</a></p>
+
+<img data-src="img/navarro-quarto.png" alt="A screenshot of Danielle Navarro's page on converting a Distill site to Quarto" class="r-stretch quarto-figure-center"></section>
+<section id="you-have-many-friends" class="slide level2">
+<h2>You have <span style="color: var(--rs-orange);">many</span> friends</h2>
+<p>RStudio community spots</p>
+<ul>
+<li><a href="https://www.rstudio.com/data-science-hangout/">RStudio Data Science Hangout</a></li>
+<li><a href="https://www.tidytuesday.com/">TidyTuesday podcast and community activity</a></li>
+<li><a href="https://www.rfordatasci.com/">R4DS Online Learning Community (Slack)</a></li>
+<li><a href="https://benubah.github.io/r-community-explorer/rugs.html">R User Groups</a></li>
+<li><a href="https://rladies.org/">R Ladies Global</a></li>
+</ul>
+</section>
 <section id="the-wtf-aita-community-resource" class="slide level2">
 <h2>The WTF-AITA community resource</h2>
 <p>Find all of this talk’s content and more at <a href="http://www.wtf-aita.com/">wtf-aita.com</a></p>
+<ul>
+<li>Please <a href="https://github.com/tgerke/wtf-aita/">contribute</a> by way of Issue or PR!</li>
+</ul>
 
 <img data-src="img/wtf-aita-com.png" alt="A screenshot of the wtf-aita.com homepage" class="r-stretch quarto-figure-center"><div class="footer footer-default">
 

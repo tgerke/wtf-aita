@@ -118,6 +118,23 @@ Use the [stevetemplates](http://svmiller.com/stevetemplates/) package
 
 ![](img/steve-templates.png){fig-align="center" fig-alt="A screenshot of the stevetemplates package docs"}
 
+## {.cover-accessories id="cover-accessories" .center}
+
+### 2+ COVER ACCESSORIES
+
+## An org-themed [demo app](https://javierorraca.shinyapps.io/Bloomreach_Shiny_App/)
+
+![](img/bloomreach.png){fig-align="center" fig-alt="A screenshot of Javier Orraca's Bloomreach demo Shiny app"}
+
+## An org-themed [demo app](https://javierorraca.shinyapps.io/Bloomreach_Shiny_App/)
+
+The secret sauce: [bslib](https://rstudio.github.io/bslib/) and [thematic](https://rstudio.github.io/thematic/)
+
+- Details at Javier's GitHub [repo](https://github.com/JavOrraca/bslib_demo_shiny)
+
+![](img/bloomreach-gh.png){fig-align="center" fig-alt="A screenshot of Javier Orraca's GitHub repository for the Bloomreach demo Shiny app"}
+
+
 ## {.portfolios id="portfolios" .center}
 
 ### 3. PORTFOLIOS
@@ -126,11 +143,37 @@ Use the [stevetemplates](http://svmiller.com/stevetemplates/) package
 
 Am I nOt ImPrEsSiVe? :woozy_face:
 
-## Industry portfolios
+## Industry portfolios (1/3)
 
 GitHub portfolio (example from [Monica Powell](https://aboutmonica.com/blog/how-to-create-a-github-profile-readme/)) ![](img/gh-profile.png){fig-align="center" fig-alt="A screenshot Monica Powell's GitHub landing page with her profile"}
 
-## Industry portfolios
+## How to do this with RStudio
+
+```{r}
+#| eval: false
+#| echo: true
+
+# Make a project that is titled your GitHub user name
+usethis::create_project("~/Documents/GHusername")
+
+# Connect it to GitHub
+usethis::use_github()
+
+# Once in the project, run this to make your readme
+usethis::use_readme_rmd()
+```
+
+Click the `Knit` button and commit/push all changes
+
+- Modify the content as needed
+- It's all done with the R Markdown you already know!
+- If you get stuck with GitHub connections, don't forget your textbook friend [Happy Git and GitHub for the useR](https://happygitwithr.com/)
+
+## How to do this with RStudio
+
+![](img/gh-profile-tgerke.png){fig-align="center" fig-alt="A screenshot of the boilerplate usethis readme content rendered to my GitHub landing page"}
+
+## Industry portfolios (2/3)
 
 Personal websites (example from [Hadley Wickham](https://hadley.nz/))
 
@@ -138,24 +181,49 @@ Personal websites (example from [Hadley Wickham](https://hadley.nz/))
 
 ## How to do this with RStudio
 
-GitHub portfolio
+Personal website starter with the [postcards](https://github.com/seankross/postcards) package
 
-```{r}
-#| eval: false
-#| echo: true
+![](img/postcards.gif){fig-align="center" fig-alt="A scrolling screenshot of the postcards package docs"}
 
-# placeholder for usethis code
-```
+## Industry portfolios (3/3)
+
+Personal blogs (example [1/2] from [Alison Hill](https://www.apreshill.com/))
+
+![](img/apreshill.png){fig-align="center" fig-alt="A screenshot of Alison Hill's landing page"}
 
 ## How to do this with RStudio
 
-Personal website starter with the [postcards](https://github.com/seankross/postcards) package
+Watch Alison Hill's [walkthrough](https://www.apreshill.com/talk/2021-iyo-tunis/)
 
-![](img/postcards.png){fig-align="center" fig-alt="A screenshot of the postcards package docs"}
+![](img/apero.png){fig-align="center" fig-alt="A screenshot of Alison Hill's weblink to her R-ladies Hugo Apero talk"}
+
+## Industry portfolios (3/3)
+
+Personal blogs (example [2/2] from [Danielle Navarro](https://blog.djnavarro.net/))
+
+![](img/navarro.png){fig-align="center" fig-alt="A screenshot of Danielle Navarro's landing page"}
+
+## How to do this with RStudio
+
+Read Danielle Navarro's [walkthrough](https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/)
+
+![](img/navarro-quarto.png){fig-align="center" fig-alt="A screenshot of Danielle Navarro's page on converting a Distill site to Quarto"}
+
+## You have [many]{style="color: var(--rs-orange);"} friends
+
+RStudio community spots
+
+* [RStudio Data Science Hangout](https://www.rstudio.com/data-science-hangout/)
+* [TidyTuesday podcast and community activity](https://www.tidytuesday.com/)
+* [R4DS Online Learning Community (Slack)](https://www.rfordatasci.com/)
+* [R User Groups](https://benubah.github.io/r-community-explorer/rugs.html)
+* [R Ladies Global](https://rladies.org/)
 
 ## The WTF-AITA community resource
 
 Find all of this talk's content and more at [wtf-aita.com](http://www.wtf-aita.com/)
+
+ - Please [contribute](https://github.com/tgerke/wtf-aita/) by way of Issue or PR!
 
 ![](img/wtf-aita-com.png){fig-align="center" fig-alt="A screenshot of the wtf-aita.com homepage"}
 
