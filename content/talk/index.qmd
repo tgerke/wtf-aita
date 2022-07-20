@@ -222,6 +222,7 @@ RStudio community spots
 * [R4DS Online Learning Community (Slack)](https://www.rfordatasci.com/)
 * [R User Groups](https://benubah.github.io/r-community-explorer/rugs.html)
 * [R Ladies Global](https://rladies.org/)
+* [RStudio Community](https://community.rstudio.com/)
 
 ## {.wtf-aita-com id="wtf-aita-com" .center}
 
