@@ -382,11 +382,11 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="center">
+<section id="title-slide" data-background-image="img/wtf-teach-you-industry.png" data-background-size="cover" class="center">
   <h1 class="title">What they forgot to teach you about industry transitions from academia</h1>
 </section>
 
-<section id="wtf-aita" class="slide level2 wtf-aita center" data-background-image="img/towfiqu-barbhuiya-oZuBNC-6E2s-unsplash.jpg">
+<section id="wtf-aita" class="slide level2 wtf-aita center">
 <h2></h2>
 <h3 id="wtf-aita-1">WTF AITA</h3>
 <!-- 
@@ -405,8 +405,6 @@ https://quarto.org/docs/presentations/revealjs/themes.html#customizing-themes
 <h2>What the f*ck?</h2>
 <div class="fragment">
 <p>Good question!</p>
-</div>
-<div class="fragment">
 <ul>
 <li>Commonly asked regarding careers in academia</li>
 </ul>
@@ -418,20 +416,11 @@ https://quarto.org/docs/presentations/revealjs/themes.html#customizing-themes
 <img data-src="img/phds-vs-jobs.png" alt="A plot showing way more phds granted than faculty positions available each year" class="r-stretch quarto-figure-center"><p class="caption">Figure from <a href="https://www.nature.com/articles/nbt.2706">Schillebeeckx et al., Nat Biotech (2013)</a></p></section>
 <section id="what-the-fck-2" class="slide level2">
 <h2>What the f*ck?</h2>
-<p>Good question!</p>
-<ul>
-<li>Commonly asked regarding careers in academia</li>
-</ul>
-<div class="fragment">
+<p>A common academic career question</p>
 <ul>
 <li>This is not a talk about that</li>
-</ul>
-</div>
-<div class="fragment">
-<ul>
 <li>See instead: <a href="https://theprofessorisin.com/tag/quit-lit/">quit lit</a></li>
 </ul>
-</div>
 <div class="fragment">
 <p>Generalizes beyond academia</p>
 <ul>
@@ -517,10 +506,9 @@ https://quarto.org/docs/presentations/revealjs/themes.html#customizing-themes
 <section id="how-to-do-this-with-rstudio-2" class="slide level2">
 <h2>How to do this with RStudio</h2>
 <p>GitHub portfolio</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="sc">|</span><span class="co"># eval: false</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="er">|</span><span class="co"># echo: true</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="co"># placeholder for usethis code</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># placeholder for usethis code</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="how-to-do-this-with-rstudio-3" class="slide level2">
 <h2>How to do this with RStudio</h2>
@@ -746,6 +734,48 @@ https://quarto.org/docs/presentations/revealjs/themes.html#customizing-themes
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        function fireSlideChanged(previousSlide, currentSlide) {
+
+          // dispatch for htmlwidgets
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for reveal
+        if (window.Reveal) {
+          window.Reveal.addEventListener("slidechanged", function(event) {
+            fireSlideChanged(event.previousSlide, event.currentSlide);
+          });
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

@@ -1,34 +1,16 @@
+:root {
+  --rs-orange: #e7553c;
+  --rs-gray: #4d4d4d;
+  --rs-yellow: #fdbe4c;
+  --rs-blue: #4d8dca;
+}
+
 #title-slide .title {
-  color: #000000;
+  visibility: hidden;
 }
 
-#title-slide .subtitle {
-  color: #000;
-  position: fixed;
-  bottom: 100;
-  right: 1;
-}
-
-.wtf-aita h3 {
+#wtf-aita h3, #resumes h3, #cover-letters h3, #portfolios h3 {
   text-align: center;
   font-size: 2.8em;
-  color: #ffffff;
-}
-
-.resumes h3 {
-  text-align: center;
-  font-size: 2.8em;
-  color: #000000;
-}
-
-.cover-letters h3 {
-  text-align: center;
-  font-size: 2.8em;
-  color: #000000;
-}
-
-.portfolios h3 {
-  text-align: center;
-  font-size: 2.8em;
-  color: #000000;
+  color: var(--rs-gray);
 }

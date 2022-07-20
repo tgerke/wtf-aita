@@ -5,10 +5,13 @@ format:
   revealjs: 
     theme: [default]
     css: [custom.css]
-editor: visual
+    title-slide-attributes:
+      data-background-image: img/wtf-teach-you-industry.png
+      data-background-size: cover
+editor: source
 ---
 
-## {.wtf-aita id="wtf-aita" background-image="img/towfiqu-barbhuiya-oZuBNC-6E2s-unsplash.jpg" .center}
+## {.wtf-aita id="wtf-aita" .center}
 
 ### WTF AITA
 
@@ -30,8 +33,6 @@ https://quarto.org/docs/presentations/revealjs/themes.html#customizing-themes
 
 Good question!
 
-. . .
-
 -   Commonly asked regarding careers in academia
 
 ## What the f\*ck?
@@ -40,16 +41,9 @@ Good question!
 
 ## What the f\*ck?
 
-Good question!
-
--   Commonly asked regarding careers in academia
-
-. . .
+A common academic career question
 
 -   This is not a talk about that
-
-. . .
-
 -   See instead: [quit lit](https://theprofessorisin.com/tag/quit-lit/)
 
 . . .
@@ -146,9 +140,9 @@ Personal websites (example from [Hadley Wickham](https://hadley.nz/))
 
 GitHub portfolio
 
-``` r
-|# eval: false
-|# echo: true
+```{r}
+#| eval: false
+#| echo: true
 
 # placeholder for usethis code
 ```
@@ -164,3 +158,4 @@ Personal website starter with the [postcards](https://github.com/seankross/postc
 Find all of this talk's content and more at [wtf-aita.com](http://www.wtf-aita.com/)
 
 ![](img/wtf-aita-com.png){fig-align="center" fig-alt="A screenshot of the wtf-aita.com homepage"}
+
