@@ -1,0 +1,41 @@
+---
+title: Portfolios
+author: 'Travis Gerke'
+date: '2022-07-27'
+slug: ["portfolios"]
+categories: ["portfolios"]
+tags: ["websites", "github"]
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<div id="portfolios" class="section level1">
+<h1>Portfolios</h1>
+<p>The <a href="https://wtf-aita.com/talk/#/portfolios">WTF AITA talk</a> highlighted 3 ways to create a quick portfolio for yourself.</p>
+<div id="make-a-github-profile" class="section level2">
+<h2>Make a GitHub profile</h2>
+<p>Here’s a helpful <a href="https://aboutmonica.com/blog/how-to-create-a-github-profile-readme/">walkthrough using the GitHub UI</a> from Monica Powell. If, instead, you want to jumpstart this with 3 lines of R code, here you go!</p>
+<pre class="r"><code># Make a project that is titled your GitHub user name
+usethis::create_project(&quot;~/Documents/GHusername&quot;)
+
+# Connect it to GitHub
+usethis::use_github()
+
+# Once in the project, run this to make your readme
+usethis::use_readme_rmd()</code></pre>
+<p>Knit your changes to the basic template and you’re good to go!</p>
+</div>
+<div id="make-a-personal-landing-page" class="section level2">
+<h2>Make a personal landing page</h2>
+<p>The example in the talk (<a href="https://hadley.nz/">Hadley Wickham’s page</a>) uses the <a href="https://github.com/seankross/postcards">postcards</a> package. Check the excellent vignette at the package site to quickly get started.</p>
+</div>
+<div id="make-a-websiteblog" class="section level2">
+<h2>Make a website/blog</h2>
+<p>This is the more advanced option, but there are many great design choices and tools to help you!</p>
+<ul>
+<li>Alison Hill’s <a href="https://www.apreshill.com/">site</a> made with Hugo Apero and a corresponding <a href="https://www.apreshill.com/talk/2021-iyo-tunis/">walkthrough</a> for getting started</li>
+<li>Danielle Navarro’s <a href="https://blog.djnavarro.net/">site</a> ported from distill to quarto, with corresponding <a href="https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/">walkthrough</a></li>
+</ul>
+</div>
+</div>

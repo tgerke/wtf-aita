@@ -18,6 +18,17 @@
     </item>
     
     <item>
+      <title>Portfolios</title>
+      <link>http://wtf-aita.com/post/2022-07-27-portfolios/</link>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://wtf-aita.com/post/2022-07-27-portfolios/</guid>
+      <description>Portfolios The WTF AITA talk highlighted 3 ways to create a quick portfolio for yourself.
+Make a GitHub profile Here’s a helpful walkthrough using the GitHub UI from Monica Powell. If, instead, you want to jumpstart this with 3 lines of R code, here you go!
+# Make a project that is titled your GitHub user name usethis::create_project(&amp;quot;~/Documents/GHusername&amp;quot;) # Connect it to GitHub usethis::use_github() # Once in the project, run this to make your readme usethis::use_readme_rmd() Knit your changes to the basic template and you’re good to go!</description>
+    </item>
+    
+    <item>
       <title>Resumes</title>
       <link>http://wtf-aita.com/post/2022-07-27-resumes/</link>
       <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>

@@ -1,0 +1,45 @@
+---
+title: Portfolios
+author: 'Travis Gerke'
+date: '2022-07-27'
+slug: ["portfolios"]
+categories: ["portfolios"]
+tags: ["websites", "github"]
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# Portfolios
+
+The [WTF AITA talk](https://wtf-aita.com/talk/#/portfolios) highlighted 3 ways to create a quick portfolio for yourself.
+
+## Make a GitHub profile
+
+Here's a helpful [walkthrough using the GitHub UI](https://aboutmonica.com/blog/how-to-create-a-github-profile-readme/) from Monica Powell. If, instead, you want to jumpstart this with 3 lines of R code, here you go!
+
+```{r eval=FALSE}
+# Make a project that is titled your GitHub user name
+usethis::create_project("~/Documents/GHusername")
+
+# Connect it to GitHub
+usethis::use_github()
+
+# Once in the project, run this to make your readme
+usethis::use_readme_rmd()
+```
+
+Knit your changes to the basic template and you're good to go!
+
+## Make a personal landing page
+
+The example in the talk ([Hadley Wickham's page](https://hadley.nz/)) uses the [postcards](https://github.com/seankross/postcards) package. Check the excellent vignette at the package site to quickly get started.
+
+## Make a website/blog
+
+This is the more advanced option, but there are many great design choices and tools to help you!
+
+- Alison Hill's [site](https://www.apreshill.com/) made with Hugo Apero and a corresponding [walkthrough](https://www.apreshill.com/talk/2021-iyo-tunis/) for getting started
+- Danielle Navarro's [site](https://blog.djnavarro.net/) ported from distill to quarto, with corresponding [walkthrough](https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/)

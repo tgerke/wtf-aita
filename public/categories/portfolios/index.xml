@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>portfolios on What they forgot to teach you about industry transitions from academia (WTF AITA)</title>
+    <link>http://wtf-aita.com/categories/portfolios/</link>
+    <description>Recent content in portfolios on What they forgot to teach you about industry transitions from academia (WTF AITA)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://wtf-aita.com/categories/portfolios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Portfolios</title>
+      <link>http://wtf-aita.com/post/2022-07-27-portfolios/</link>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://wtf-aita.com/post/2022-07-27-portfolios/</guid>
+      <description>Portfolios The WTF AITA talk highlighted 3 ways to create a quick portfolio for yourself.
+Make a GitHub profile Here’s a helpful walkthrough using the GitHub UI from Monica Powell. If, instead, you want to jumpstart this with 3 lines of R code, here you go!
+# Make a project that is titled your GitHub user name usethis::create_project(&amp;quot;~/Documents/GHusername&amp;quot;) # Connect it to GitHub usethis::use_github() # Once in the project, run this to make your readme usethis::use_readme_rmd() Knit your changes to the basic template and you’re good to go!</description>
+    </item>
+    
+  </channel>
+</rss>
