@@ -71,17 +71,14 @@ params:
         Title: "WTF AITA"
         Content: >
             Welcome to a collection of resources to guide you through a transition from 
-            academia to industry as a data scientist. 
-            - Do give a 🌟 on Github !
-            - Feel free to offer content suggestions! [WTF-ATIA](https://github.com/tgerke/wtf-aita/).
+            academia to industry as a data scientist. Feel free to give a [🌟 on Github](https://github.com/tgerke/wtf-aita/) and offer content suggestions by way of Issue or Pull Request!
     socialIcons:
         - name: github
           url: "https://github.com/tgerke/wtf-aita/"
         - name: twitter
-          url: "https://twitter.com"
-        - name: email
-          url: "mailto:test@test"
-
+          url: "https://twitter.com/search?q=%23wtfaita"
+        - name: slides
+          url: "https://wtf-aita.com/talk/"
     editPost:
         URL: "https://github.com/tgerke/wtf-aita/tree/main/content"
         Text: "Suggest Changes" # edit text

@@ -5,15 +5,16 @@
     <link>http://wtf-aita.com/</link>
     <description>Recent content on What they forgot to teach you about industry transitions from academia (WTF AITA)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://wtf-aita.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://wtf-aita.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An intro to WTF AITA</title>
-      <link>http://wtf-aita.com/post/2022-03-18-wtf-aita-intro/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>http://wtf-aita.com/post/2022-07-27-wtf-aita-intro/</link>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://wtf-aita.com/post/2022-03-18-wtf-aita-intro/</guid>
-      <description>  An intro Hello!
- </description>
+      <guid>http://wtf-aita.com/post/2022-07-27-wtf-aita-intro/</guid>
+      <description>The talk The initial release of WTF AITA content took place at rstudioconf::(2022) in the form of a talk. Slides for this talk can be found here, and a video of the talk will be posted when available.
+ Content and further development WTF AITA content consists of tools (often R-centric, but other languages/technologies are certainly welcome!) that help ease the transition from academia to industry careers. Current content domains include resume building, cover letter writing, and portfolio creation.</description>
     </item>
     
   </channel>

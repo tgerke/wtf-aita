@@ -2,22 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://wtf-aita.com/post/2022-03-18-wtf-aita-intro/</loc>
+    <loc>http://wtf-aita.com/post/2022-07-27-wtf-aita-intro/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://wtf-aita.com/categories/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://wtf-aita.com/categories/content/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://wtf-aita.com/tags/general/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://wtf-aita.com/post/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://wtf-aita.com/categories/r/</loc>
-  </url><url>
-    <loc>http://wtf-aita.com/series/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://wtf-aita.com/tags/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://wtf-aita.com/tags/talk/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://wtf-aita.com/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://wtf-aita.com/tags/wtf-aita/</loc>
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://wtf-aita.com/series/</loc>
   </url>
 </urlset>
