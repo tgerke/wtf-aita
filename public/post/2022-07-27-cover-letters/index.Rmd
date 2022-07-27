@@ -1,0 +1,14 @@
+---
+title: Cover letters
+author: 'Travis Gerke'
+date: '2022-07-27'
+slug: ["cover-letters"]
+categories: ["cover letters"]
+tags: ["cover letters"]
+---
+
+# Cover letters
+
+The [WTF AITA talk](https://wtf-aita.com/talk/#/industry-cover-letters) highlighted the [stevetemplates](http://svmiller.com/stevetemplates/) package for creating an elegant cover letter that renders from R Markdown. 
+
+Also mentioned was the notion of "cover accessories." An excellent example of this is Javier Orraca's [org-themed Shiny demo Shiny app](https://javierorraca.shinyapps.io/Bloomreach_Shiny_App/) that he submitted as part of his successful Bloomreach job application. The [GitHub readme](https://github.com/JavOrraca/bslib_demo_shiny) for his project describes how this was done with bslib and thematic.

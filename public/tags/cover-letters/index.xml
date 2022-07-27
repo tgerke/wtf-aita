@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cover letters on What they forgot to teach you about industry transitions from academia (WTF AITA)</title>
+    <link>http://wtf-aita.com/tags/cover-letters/</link>
+    <description>Recent content in cover letters on What they forgot to teach you about industry transitions from academia (WTF AITA)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://wtf-aita.com/tags/cover-letters/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cover letters</title>
+      <link>http://wtf-aita.com/post/2022-07-27-cover-letters/</link>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://wtf-aita.com/post/2022-07-27-cover-letters/</guid>
+      <description>Cover letters The WTF AITA talk highlighted the stevetemplates package for creating an elegant cover letter that renders from R Markdown.
+Also mentioned was the notion of “cover accessories.” An excellent example of this is Javier Orraca’s org-themed Shiny demo Shiny app that he submitted as part of his successful Bloomreach job application. The GitHub readme for his project describes how this was done with bslib and thematic.</description>
+    </item>
+    
+  </channel>
+</rss>
