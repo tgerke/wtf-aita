@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>presentations on What they forgot to teach you about industry transitions from academia (WTF AITA)</title>
+    <link>http://wtf-aita.com/categories/presentations/</link>
+    <description>Recent content in presentations on What they forgot to teach you about industry transitions from academia (WTF AITA)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://wtf-aita.com/categories/presentations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An intro to WTF AITA</title>
+      <link>http://wtf-aita.com/post/2022-07-27-wtf-aita-intro/</link>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://wtf-aita.com/post/2022-07-27-wtf-aita-intro/</guid>
+      <description>The talk The initial release of WTF AITA content took place at rstudioconf::(2022) in the form of a talk. Slides for this talk can be found here, and a video of the talk will be posted when available.
+ Content and further development WTF AITA content consists of tools (often R-centric, but other languages/technologies are certainly welcome!) that help ease the transition from academia to industry careers. Current content domains include resume building, cover letter writing, and portfolio creation.</description>
+    </item>
+    
+  </channel>
+</rss>
