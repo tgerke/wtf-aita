@@ -1,0 +1,21 @@
+---
+title: Resumes
+author: 'Travis Gerke'
+date: '2022-07-27'
+slug: [resumes]
+categories: ["resumes"]
+tags: ["resumes", "cv"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# Move from a 22-pager to a 1 or 2 pager!
+
+The [WTF AITA talk](https://wtf-aita.com/talk/#/resumes) highlighted Nick Strayer's [datadrivencv](http://nickstrayer.me/datadrivencv/) package for succinct, elegant resume building from R. See the talk's [resumes section](https://wtf-aita.com/talk/#/resumes) in particular for how that looks. 
+
+That's not the only option out there though! Here are some other great R packages that will help you shine!
+
+- [vitae](https://github.com/mitchelloharawild/vitae)
+- [resumer](https://github.com/jaredlander/resumer)

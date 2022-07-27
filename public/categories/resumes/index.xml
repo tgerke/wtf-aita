@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>resumes on What they forgot to teach you about industry transitions from academia (WTF AITA)</title>
+    <link>http://wtf-aita.com/categories/resumes/</link>
+    <description>Recent content in resumes on What they forgot to teach you about industry transitions from academia (WTF AITA)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://wtf-aita.com/categories/resumes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resumes</title>
+      <link>http://wtf-aita.com/post/2022-07-27-resumes/</link>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://wtf-aita.com/post/2022-07-27-resumes/</guid>
+      <description>  Move from a 22-pager to a 1 or 2 pager! The WTF AITA talk highlighted Nick Strayer’s datadrivencv package for succinct, elegant resume building from R. See the talk’s resumes section in particular for how that looks.
+That’s not the only option out there though! Here are some other great R packages that will help you shine!
+ vitae resumer   </description>
+    </item>
+    
+  </channel>
+</rss>

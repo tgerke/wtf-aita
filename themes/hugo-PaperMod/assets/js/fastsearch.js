@@ -48,7 +48,7 @@ window.onload = function () {
             }
         }
     };
-    xhr.open('GET', "../index.json");
+    xhr.open('GET', "https://wtf-aita.com/index.json");
     xhr.send();
 }
 

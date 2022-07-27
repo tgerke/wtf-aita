@@ -17,5 +17,16 @@
  Content and further development WTF AITA content consists of tools (often R-centric, but other languages/technologies are certainly welcome!) that help ease the transition from academia to industry careers. Current content domains include resume building, cover letter writing, and portfolio creation.</description>
     </item>
     
+    <item>
+      <title>Resumes</title>
+      <link>http://wtf-aita.com/post/2022-07-27-resumes/</link>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://wtf-aita.com/post/2022-07-27-resumes/</guid>
+      <description>  Move from a 22-pager to a 1 or 2 pager! The WTF AITA talk highlighted Nick Strayer’s datadrivencv package for succinct, elegant resume building from R. See the talk’s resumes section in particular for how that looks.
+That’s not the only option out there though! Here are some other great R packages that will help you shine!
+ vitae resumer   </description>
+    </item>
+    
   </channel>
 </rss>
